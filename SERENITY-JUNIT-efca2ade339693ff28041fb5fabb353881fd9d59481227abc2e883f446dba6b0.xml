@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Crear cuenta de usuario" skipped="0" tests="24" time="17.67" timestamp="2023-04-26 01:39:06"><testcase name="Crear administrador exitoso"/><testcase name="Crear aprendiz exitoso"/><testcase name="Envio de datos para la creacion de usuario administrador vacios"/><testcase name="Envio de datos para la creacion de usuario aprendiz vacios"/><testcase name="Creacion usuarios admin con caracteres especiales y numericos en el nombre"/><testcase name="Creacion usuarios aprendiz con caracteres especiales y numericos en el nombre"/><testcase name="Crear administrador existente"><failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAdministradorExistente.noSeCrearaLaCuentaDeUsuarioYSeRecibiraUnCodigoDeStatus(CrearAdministradorExistente.java:54)&#13;
+✽.no se creara la cuenta de usuario y se recibira un codigo de status "409"(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB01crearcuentas.feature:70)&#13;
+</system-err></testcase><testcase name="Crear aprendiz existente"><failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearLearnerExistente.noSeCrearaLaCuentaDeAprendizYSeRecibiraUnCodigoDeStatus(CrearLearnerExistente.java:56)&#13;
+✽.no se creara la cuenta de aprendiz y se recibira un codigo de status "409"(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB01crearcuentas.feature:76)&#13;
+</system-err></testcase><testcase name="Crear administrador con correo de un aprendiz"><failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAdministradorConCorreoAprendiz.noSeCrearaLaCuentaYSeRecibiraUnCodigoDeStatus(CrearAdministradorConCorreoAprendiz.java:55)&#13;
+✽.no se creara la cuenta y se recibira un codigo de status "409"(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB01crearcuentas.feature:82)&#13;
+</system-err></testcase><testcase name="Crear aprendiz con correo de un administrador"><failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearAprendizConCorreoAdmin.noSeCrearaLaCuentaAprendizYSeRecibiraUnCodigoDeStatus(CrearAprendizConCorreoAdmin.java:57)&#13;
+✽.no se creara la cuenta aprendiz y se recibira un codigo de status "409"(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB01crearcuentas.feature:88)&#13;
+</system-err></testcase><testcase name="Crear admin con un correo invalido"/><testcase name="Crear aprendiz con un correo invalido"/></testsuite>

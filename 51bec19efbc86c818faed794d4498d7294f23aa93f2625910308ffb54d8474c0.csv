@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Editar curso del campus MatCafe","Editar cursos de aprendizaje de manera exitosa","SUCCESS","2023-04-26T13:38:11.353-05:00[America/Bogota]","0.0","4.15"
+"Editar curso del campus MatCafe","Editar cursos de aprendizaje dejando campos vacios","SUCCESS","2023-04-26T13:38:15.553-05:00[America/Bogota]","0.0","3.0"
+"Editar curso del campus MatCafe","Editar cursos de aprendizaje sin un id de administrador","SUCCESS","2023-04-26T13:38:18.595-05:00[America/Bogota]","0.0","2.27"
+"Editar curso del campus MatCafe","Intentar editar un curso de aprendizaje que no existe","SUCCESS","2023-04-26T13:38:20.9-05:00[America/Bogota]","0.0","2.22"

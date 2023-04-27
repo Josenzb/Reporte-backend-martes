@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear cuenta de usuario","Crear administrador existente","FAILURE","2023-04-26T13:39:19.684-05:00[America/Bogota]","0.0","0.73"
+"Crear cuenta de usuario","Crear aprendiz existente","FAILURE","2023-04-26T13:39:20.446-05:00[America/Bogota]","0.0","0.72"
+"Crear cuenta de usuario","Crear administrador con correo de un aprendiz","FAILURE","2023-04-26T13:39:21.204-05:00[America/Bogota]","0.0","0.73"
+"Crear cuenta de usuario","Crear aprendiz con correo de un administrador","FAILURE","2023-04-26T13:39:21.96-05:00[America/Bogota]","0.0","0.73"

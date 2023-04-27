@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear ruta de aprendizaje","crear rutas de aprendizaje  agregando cursos que no existen","SUCCESS","2023-04-26T13:38:26.479-05:00[America/Bogota]","0.0","0.73"
+"Crear ruta de aprendizaje","crear rutas de aprendizaje sin cursos","SUCCESS","2023-04-26T13:38:27.238-05:00[America/Bogota]","0.0","0.71"
+"Crear ruta de aprendizaje","crear rutas de aprendizaje con campos vacios","SUCCESS","2023-04-26T13:38:27.985-05:00[America/Bogota]","0.0","2.23"
+"Crear ruta de aprendizaje","crear rutas de aprendizaje que ya existe","SUCCESS","2023-04-26T13:38:35.502-05:00[America/Bogota]","0.0","0.72"

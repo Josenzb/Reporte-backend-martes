@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calificar taller","Calificar reto exitoso","SUCCESS","2023-04-26T13:39:01.253-05:00[America/Bogota]","0.0","0.97"
+"Calificar taller","Calificar reto con valores limite","SUCCESS","2023-04-26T13:39:02.269-05:00[America/Bogota]","0.0","2.96"
+"Calificar taller","Calificar reto con id de curso incorrecta","FAILURE","2023-04-26T13:39:05.26-05:00[America/Bogota]","0.0","0.74"

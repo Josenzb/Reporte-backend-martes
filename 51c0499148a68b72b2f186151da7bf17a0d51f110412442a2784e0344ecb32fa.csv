@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Buscar administrador por email","Busqueda de administrador exitosa","SUCCESS","2023-04-26T13:38:51.117-05:00[America/Bogota]","0.0","0.76"
+"Buscar administrador por email","Busqueda de admin fallida","SUCCESS","2023-04-26T13:38:51.908-05:00[America/Bogota]","0.0","2.21"

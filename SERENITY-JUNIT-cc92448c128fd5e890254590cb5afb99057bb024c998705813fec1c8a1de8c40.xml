@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Crear ruta de aprendizaje" skipped="0" tests="17" time="12.77" timestamp="2023-04-26 01:38:23"><testcase name="crear rutas de aprendizaje de manera exitosa"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;409&gt;.&#10;&#13;&#10;1 expectation failed.&#10;JSON path title doesn't match.&#10;Expected: ruta 3.5&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+&#13;
+1 expectation failed.
+JSON path title doesn't match.
+Expected: ruta 3.5
+  Actual: null
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;409&gt;.
+&#13;
+1 expectation failed.
+JSON path title doesn't match.
+Expected: ruta 3.5
+  Actual: null
+&#13;
+com.sofkau.stepdefinitions.CrearRutaStepDefinition.seRegistraraLaRutaYStatus(CrearRutaStepDefinition.java:66)&#13;
+✽.se registrara la ruta y status 201(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB02crearruta.feature:10)&#13;
+</system-err></testcase><testcase name="crear rutas de aprendizaje  agregando cursos que no existen"/><testcase name="crear rutas de aprendizaje sin cursos"/><testcase name="crear rutas de aprendizaje con campos vacios"/><testcase name="crear rutas de aprendizaje con caracteres especiales"><failure message="1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;409&gt; but was &lt;201&gt;.
+&#13;
+com.sofkau.stepdefinitions.RutaConCaracteresStepDefinition.seRegistraraLaRutaYConUnStatus(RutaConCaracteresStepDefinition.java:63)&#13;
+✽.se registrara la ruta y con un status 409(file:///C:/Users/nunez/Escritorio/Automatizacion%20final/AutomatizacionBackendMatCafe/src/test/resources/features/HUB02crearruta.feature:55)&#13;
+</system-err></testcase><testcase name="crear rutas de aprendizaje que ya existe"/></testsuite>
